@@ -1,0 +1,3 @@
+If enabled, the '@' character will be removed from mentions.
+<br /><br />
+Note: This option will not add a missing '@' character. Please enable the 'Keep @ character with user mentions' option for full functionality.

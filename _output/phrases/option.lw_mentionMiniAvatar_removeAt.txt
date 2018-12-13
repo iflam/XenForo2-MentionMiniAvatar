@@ -1,0 +1,1 @@
+Remove @ character from user mentions

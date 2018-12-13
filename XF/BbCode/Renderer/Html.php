@@ -16,7 +16,6 @@ class Html extends XFCP_Html
 		$userId = intval($option);
 
 		$user = null;
-
 		if (isset($options['lwMentionedUsers'][$userId]))
 		{
 			$user = $options['lwMentionedUsers'][$userId];
@@ -27,12 +26,18 @@ class Html extends XFCP_Html
 		}
 		else if (\XF::options()->lw_mentionMiniAvatar_fetchLegacy == 'always')
 		{
-			// This method will check the cache before querying, so prefer it to using a finder.
 			$user = \XF::app()->em()->find('XF:User', $userId);
 		}
 
+		$removeAt = \XF::options()->lw_mentionMiniAvatar_removeAt;
+
 		if (!$user)
 		{
+			if ($removeAt == 'all')
+			{
+				$html = preg_replace('/(<a.*>)(@)?(.*<\/a>)/', '$1$3', $html);
+			}
+
 			return $html;
 		}
 
@@ -43,7 +48,21 @@ class Html extends XFCP_Html
 			['class' => 'mentionAvatar', 'notooltip' => true, 'href' => false] // attributes
 		]);
 
-		$html = preg_replace('/(<a.*>)(.*)(<\/a>)/', '$1' . $avatarHtml . '$2$3', $html);
+		switch ($removeAt)
+		{
+			case 'disabled':
+				$regexReplacement = '$1' . $avatarHtml . '$2$3';
+				break;
+			case 'with_avatar': // If we get here, we have an avatar.
+			case 'all':
+				$regexReplacement = '$1' . $avatarHtml . '$3';
+
+				break;
+			default:
+				throw new \RuntimeException("Remove mention '@' character: Invalid option value encountered.");
+		}
+
+		$html = preg_replace('/(<a.*>)(@)?(.*<\/a>)/', $regexReplacement, $html);
 
 		return $html;
 	}

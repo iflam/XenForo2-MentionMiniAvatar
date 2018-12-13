@@ -11,16 +11,34 @@
         "version_string": "1.0.0 Alpha",
         "hash": "c43af94bf9665d990242fa157b453840"
     },
+    "liamw_mentionminiavatar_with_avatar.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "400a8cb65b4b9fa56e2c421c039f76c8"
+    },
     "option.lw_mentionMiniAvatar_fetchLegacy.txt": {
         "global_cache": false,
         "version_id": 1000010,
         "version_string": "1.0.0 Alpha",
         "hash": "ad1afe4ae21b7a477b24321cb90e7748"
     },
+    "option.lw_mentionMiniAvatar_removeAt.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "485cbef920fcc72d1e7b3d4ccc483aab"
+    },
     "option_explain.lw_mentionMiniAvatar_fetchLegacy.txt": {
         "global_cache": false,
-        "version_id": 1000010,
-        "version_string": "1.0.0 Alpha",
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
         "hash": "c703ae6d3a15a8a8dd9727b20addda62"
+    },
+    "option_explain.lw_mentionMiniAvatar_removeAt.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "7a5b8cab9a42616f0ceb961060478fdd"
     }
 }

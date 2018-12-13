@@ -1,5 +1,8 @@
 {
     "lw_mentionMiniAvatar_fetchLegacy.json": {
         "hash": "9a4f3212c096ff0c441444432fd752fb"
+    },
+    "lw_mentionMiniAvatar_removeAt.json": {
+        "hash": "cf5bc1d9c7daff9184592771fde9f4ef"
     }
 }

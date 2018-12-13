@@ -1,0 +1,12 @@
+{
+    "edit_format": "radio",
+    "edit_format_params": "disabled={{ phrase('disabled') }}\nwith_avatar={{ phrase('liamw_mentionminiavatar_with_avatar') }}\nall={{ phrase('all') }}",
+    "data_type": "string",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "with_avatar",
+    "relations": {
+        "alerts": 310
+    }
+}
