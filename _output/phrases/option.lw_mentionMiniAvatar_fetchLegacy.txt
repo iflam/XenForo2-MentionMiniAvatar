@@ -1,0 +1,1 @@
+Show mention avatar on legacy messages

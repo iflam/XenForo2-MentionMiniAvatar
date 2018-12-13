@@ -1,0 +1,12 @@
+{
+    "edit_format": "radio",
+    "edit_format_params": "always={{ phrase('liamw_mentionminiavatar_always') }}\ncached={{ phrase('liamw_mentionminiavatar_cached_only') }}\nnever={{ phrase('never') }}",
+    "data_type": "string",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "cached",
+    "relations": {
+        "messageOptions": 90000
+    }
+}

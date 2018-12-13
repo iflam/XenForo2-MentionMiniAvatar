@@ -1,0 +1,5 @@
+This add-on works by caching the user ids of mentioned users with each post. This allows all mentioned users to be queried from the database on thread load, reducing the maximum number of queries required.
+<br/><br />
+Messages created before this add-on was installed do not have this extra metadata, and as such an additional query per unique mention would be needed on a page load. You can enable showing mention avatars on legacy content with this option.
+<br /><br />
+The 'Always' option will always fetch the user record from the database. The 'Cached only' option will only show an avatar if a cached user record can be fetched. The 'Never' option will never show a user avatar with mentions in legacy messages.

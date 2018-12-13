@@ -1,0 +1,26 @@
+{
+    "liamw_mentionminiavatar_always.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "68eec46437c384d8dad18d5464ebc35c"
+    },
+    "liamw_mentionminiavatar_cached_only.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c43af94bf9665d990242fa157b453840"
+    },
+    "option.lw_mentionMiniAvatar_fetchLegacy.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "ad1afe4ae21b7a477b24321cb90e7748"
+    },
+    "option_explain.lw_mentionMiniAvatar_fetchLegacy.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c703ae6d3a15a8a8dd9727b20addda62"
+    }
+}
