@@ -9,7 +9,7 @@
     "faq_url": "",
     "support_url": "",
     "extra_urls": {
-        "Contribute on GitHub": ""
+        "Contribute on GitHub": "https://github.com/lw-addons/XenForo2-MentionMiniAvatar"
     },
     "require": {
         "php": [
