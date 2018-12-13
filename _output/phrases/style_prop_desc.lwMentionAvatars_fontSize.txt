@@ -1,0 +1,1 @@
+For dynamic avatars, this overrides the font size of the contained letter.

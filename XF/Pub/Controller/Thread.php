@@ -2,21 +2,20 @@
 
 namespace LiamW\MentionMiniAvatar\XF\Pub\Controller;
 
+use LiamW\MentionMiniAvatar\Pub\Controller\MentionMiniAvatarTrait;
 use XF\Mvc\ParameterBag;
-use XF\Mvc\Reply\View;
 
 class Thread extends XFCP_Thread
 {
+	use MentionMiniAvatarTrait;
+
 	public function actionIndex(ParameterBag $params)
 	{
-		$reply = parent::actionIndex($params);
+		return $this->addMentionsToContent(parent::actionIndex($params), 'posts');
+	}
 
-		if ($reply instanceof View && $posts = $reply->getParam('posts'))
-		{
-			$lwMentionsRepo = $this->repository('LiamW\MentionMiniAvatar:Mentions');
-			$lwMentionsRepo->addMentionsToContent($posts);
-		}
-
-		return $reply;
+	public function getNewPostsReply(\XF\Entity\Thread $thread, $lastDate)
+	{
+		return $this->addMentionsToContent(parent::getNewPostsReply($thread, $lastDate), 'posts');
 	}
 }

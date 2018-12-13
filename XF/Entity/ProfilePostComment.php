@@ -5,7 +5,7 @@ namespace LiamW\MentionMiniAvatar\XF\Entity;
 use LiamW\MentionMiniAvatar\Entity\MentionMiniAvatarTrait;
 use XF\Mvc\Entity\Structure;
 
-class Post extends XFCP_Post
+class ProfilePostComment extends XFCP_ProfilePostComment
 {
 	use MentionMiniAvatarTrait;
 

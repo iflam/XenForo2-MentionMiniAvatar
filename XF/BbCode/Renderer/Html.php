@@ -45,7 +45,7 @@ class Html extends XFCP_Html
 			$user, // user
 			's', // size
 			false, // canonical
-			['class' => 'mentionAvatar', 'notooltip' => true, 'href' => false] // attributes
+			['class' => 'avatar--mention', 'notooltip' => true, 'href' => false] // attributes
 		]);
 
 		switch ($removeAt)

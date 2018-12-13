@@ -40,5 +40,65 @@
         "version_id": 1000032,
         "version_string": "1.0.0 Beta 2",
         "hash": "7a5b8cab9a42616f0ceb961060478fdd"
+    },
+    "style_prop.lwMentionAvatars.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "6fa9d28bc64ce17f5de1b7a76b4b4432"
+    },
+    "style_prop.lwMentionAvatars_fontSize.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "93b65cc7e10f1d84ed757f7351bf2ebb"
+    },
+    "style_prop.lwMentionAvatars_height.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "abbacf12d156e74d1c3471a5bde58210"
+    },
+    "style_prop.lwMentionAvatars_marginRight.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "5d97b91ed403ad484e52b5ad6ea80007"
+    },
+    "style_prop.lwMentionAvatars_width.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d5e740db5289fb8c3057ac0a40a07865"
+    },
+    "style_prop_desc.lwMentionAvatars.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.lwMentionAvatars_fontSize.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "e7bfdaba7fd57b3f9ff557d1a47648ab"
+    },
+    "style_prop_desc.lwMentionAvatars_height.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.lwMentionAvatars_marginRight.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.lwMentionAvatars_width.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
     }
 }

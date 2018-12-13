@@ -1,0 +1,13 @@
+{
+    "group_name": "avatar",
+    "title": "Mention avatar font size",
+    "description": "For dynamic avatars, this overrides the font size of the contained letter.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "unit",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "lwUserMentionAvatars",
+    "property_value": "12px",
+    "display_order": 90020
+}

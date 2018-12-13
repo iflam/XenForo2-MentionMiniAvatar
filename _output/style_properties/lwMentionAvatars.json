@@ -1,0 +1,19 @@
+{
+    "group_name": "avatar",
+    "title": "User mention avatars",
+    "description": "",
+    "property_type": "css",
+    "css_components": [
+        "border_width_simple",
+        "border_color_simple",
+        "border_radius_simple"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "border-radius": "@xf-avatarBorderRadius"
+    },
+    "display_order": 90000
+}

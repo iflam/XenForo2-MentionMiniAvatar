@@ -2,8 +2,23 @@
     "XF-BbCode-Renderer-Html_LiamW-MentionMiniAvatar-XF-BbCode-Renderer-Html.json": {
         "hash": "e6eff7fc1dde3433578844bab3f896f3"
     },
+    "XF-Entity-ConversationMessage_LiamW-MentionMiniAvatar-XF-Entity-ConversationMessage.json": {
+        "hash": "cc3bdcdb4faae85c959efb99deafc5cc"
+    },
     "XF-Entity-Post_LiamW-MentionMiniAvatar-XF-Entity-Post.json": {
         "hash": "d8a88e78adf00688070f3166190f3817"
+    },
+    "XF-Entity-ProfilePostComment_LiamW-MentionMiniAvatar-XF-Entity-ProfilePostComment.json": {
+        "hash": "b45d55e79e6c05321d1673a18e58d0d6"
+    },
+    "XF-Entity-ProfilePost_LiamW-MentionMiniAvatar-XF-Entity-ProfilePost.json": {
+        "hash": "d9bab1f88c35ad8b7abb56eca4ddc24b"
+    },
+    "XF-Pub-Controller-Conversation_LiamW-MentionMiniAvatar-XF-Pub-Controller-Conversation.json": {
+        "hash": "accd682aea54fa1fceca7c1a98833c80"
+    },
+    "XF-Pub-Controller-Member_LiamW-MentionMiniAvatar-XF-Pub-Controller-Member.json": {
+        "hash": "821a9470ffb6a69697c75665ff11eb5f"
     },
     "XF-Pub-Controller-Thread_LiamW-MentionMiniAvatar-XF-Pub-Controller-Thread.json": {
         "hash": "ca837093c8b121882d96a08ae94aea77"

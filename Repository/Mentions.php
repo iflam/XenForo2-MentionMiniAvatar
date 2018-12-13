@@ -26,9 +26,7 @@ class Mentions extends Repository
 		$mentionedUsers = [];
 		if ($mentionedUsersIds)
 		{
-			$mentionedUsers = $this->finder('XF:User')
-				->whereIds(array_unique($mentionedUsersIds))
-				->fetch();
+			$mentionedUsers = $this->em->findByIds('XF:User', array_unique($mentionedUsersIds));
 		}
 
 		if (!$mentionedUsers || !$mentionedUsers->count())

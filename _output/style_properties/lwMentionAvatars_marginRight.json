@@ -1,0 +1,13 @@
+{
+    "group_name": "avatar",
+    "title": "Mention avatar right margin",
+    "description": "",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "unit",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "lwUserMentionAvatars",
+    "property_value": "2px",
+    "display_order": 90025
+}

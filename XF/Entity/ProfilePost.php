@@ -5,7 +5,7 @@ namespace LiamW\MentionMiniAvatar\XF\Entity;
 use LiamW\MentionMiniAvatar\Entity\MentionMiniAvatarTrait;
 use XF\Mvc\Entity\Structure;
 
-class Post extends XFCP_Post
+class ProfilePost extends XFCP_ProfilePost
 {
 	use MentionMiniAvatarTrait;
 
@@ -17,5 +17,15 @@ class Post extends XFCP_Post
 	public static function getStructure(Structure $structure)
 	{
 		return static::addMentionMiniAvatarStructureElements(parent::getStructure($structure));
+	}
+
+	public function setLatestComments(array $latest)
+	{
+		parent::setLatestComments($latest);
+
+		// If you can think of a better way, please let me know...
+		// I do think the embed metadata stuff needs an overhaul.
+
+		$this->repository('LiamW\MentionMiniAvatar:Mentions')->addMentionsToContent($latest);
 	}
 }
