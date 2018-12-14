@@ -26,6 +26,9 @@ class ProfilePost extends XFCP_ProfilePost
 		// If you can think of a better way, please let me know...
 		// I do think the embed metadata stuff needs an overhaul.
 
-		$this->repository('LiamW\MentionMiniAvatar:Mentions')->addMentionsToContent($latest);
+		if (\XF::$versionId >= 2010031)
+		{
+			$this->repository('LiamW\MentionMiniAvatar:Mentions')->addMentionsToContent($latest);
+		}
 	}
 }

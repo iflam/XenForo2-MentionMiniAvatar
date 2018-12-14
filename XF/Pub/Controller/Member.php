@@ -11,6 +11,11 @@ class Member extends XFCP_Member
 
 	public function actionView(ParameterBag $params)
 	{
-		return $this->addMentionsToContent(parent::actionView($params), 'profilePosts');
+		if (\XF::$versionId >= 2010031)
+		{
+			return $this->addMentionsToContent(parent::actionView($params), 'profilePosts');
+		}
+
+		return parent::actionView($params);
 	}
 }
