@@ -14,7 +14,7 @@ class Thread extends XFCP_Thread
 		return $this->addMentionsToContent(parent::actionIndex($params), 'posts');
 	}
 
-	public function getNewPostsReply(\XF\Entity\Thread $thread, $lastDate)
+	protected function getNewPostsReply(\XF\Entity\Thread $thread, $lastDate)
 	{
 		return $this->addMentionsToContent(parent::getNewPostsReply($thread, $lastDate), 'posts');
 	}
