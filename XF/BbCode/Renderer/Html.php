@@ -41,7 +41,7 @@ class Html extends XFCP_Html
 			return $html;
 		}
 
-		$avatarHtml = $this->templater->fn('avatar', [
+		$avatarHtml = $this->templater->func('avatar', [
 			$user, // user
 			's', // size
 			false, // canonical
