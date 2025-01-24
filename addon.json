@@ -1,15 +1,15 @@
 {
     "legacy_addon_id": "",
-    "title": "Mentions Mini Avatar",
-    "description": "",
+    "title": "Mentions Mini Avatar (Custom)",
+    "description": "Update to make function work",
     "version_id": 1000033,
-    "version_string": "1.0.0 Beta 3",
+    "version_string": "1.0.1 Beta 3",
     "dev": "Liam Williams",
     "dev_url": "https://lw-addons.net",
     "faq_url": "",
     "support_url": "",
     "extra_urls": {
-        "Contribute on GitHub": "https://github.com/lw-addons/XenForo2-MentionMiniAvatar"
+        "Contribute on GitHub": "https://github.com/iflam/XenForo2-MentionMiniAvatar"
     },
     "require": {
         "php": [
